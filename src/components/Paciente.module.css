@@ -1,0 +1,48 @@
+.paciente {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin: 25px 25px 25px 0px;
+  border-top: 1px rgba(255, 255, 255, 0.438) solid;
+  border-left: 5px rgb(255, 255, 255) solid;
+  border-radius: 13px;
+  padding: 5px;
+  -webkit-box-shadow: -1px 6px 13px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -1px 6px 13px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.411);
+}
+
+.paciente p {
+  font-weight: bold;
+  margin-bottom: 3px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+
+.paciente span {
+  text-transform: none;
+  padding-left: 5px;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+}
+
+.botoneraPaciente {
+  display: flex;
+  justify-content: center;
+}
+
+.botoneraPaciente button {
+  margin: 5px;
+  padding: 7px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px white solid;
+}
+.buttonDelete {
+  background-color: red;
+}
+.buttonEdit {
+  background-color: green;
+}

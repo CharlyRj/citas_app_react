@@ -1,0 +1,58 @@
+.divFormulario {
+  width: 40%;
+  text-align: center;
+  border: 1px rgb(255, 255, 255) solid;
+  border-radius: 10px;
+  padding: 20px;
+  height: auto;
+  background-color: rgba(255, 235, 205, 0.116);
+}
+
+.tituloh2 {
+  font-size: 24px;
+  color: rgb(0, 17, 255);
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.pFormulario {
+  color: white;
+  font-size: 18px;
+}
+
+.Formulario {
+  margin-top: 15px;
+}
+
+.Formulario div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.Formulario label {
+  font-size: 18px;
+  text-align: start;
+}
+
+.Formulario input,
+textarea {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.inputForm {
+  width: 100%;
+  margin-top: 20px;
+  background: rgb(0, 153, 255) !important;
+  font-size: 20px;
+  color: white;
+  border-radius: 0px !important;
+  text-transform: uppercase;
+}
+
+.inputForm:hover {
+  background-color:rgba(0, 0, 255, 0.801) !important;
+  
+}

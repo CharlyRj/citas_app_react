@@ -1,0 +1,13 @@
+.title {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.title span {
+  color: rgb(255, 251, 0);
+  font-style: italic;
+  font-size: 42px;
+  font-weight: bold;
+}
